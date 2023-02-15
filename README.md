@@ -1,8 +1,12 @@
-# Model Analysis of Tree-LSTM and ... (more)
+# A Comparative Review of Language Models for Sentiment-Classification
 
 We present a comparative review of where we test various BOW and LSTM models to asses the impact of word embedding (GloVe and Word2Vec), word order, supervising node-sentiment and hierarchy. Our analysis shows that Tree-LSTMs are the most effective for sentiment analysis, and incorporating additional context and structure into the models can improve their performance. We also found that word order-sensitive models can capture long-term dependencies in text data and outperform traditional models. Additionally, choosing the right word embedding is important, and incorporating syntactic structure (word order, hierarchy, supervising node sentiment) can improve performance further.
 
-![Alt text](figures/sentence_length.pdf?raw=true "Sentence Length")
+<p float="left" align="middle">
+ <!---<img align="middle" src="/figures/vocabulary_size.png" width="200" />--->  
+  <img align="middle" src="/figures/sentence_length.png" width="300" /> 
+  <img align="middle" src="/figures/node_prediction.png" width="500" />
+</p>
 
 This paper was written in the context of the context of a project for the course "Natural Language Processing 1" at the University of Amsterdam. 
 
